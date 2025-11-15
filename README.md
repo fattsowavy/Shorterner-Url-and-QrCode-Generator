@@ -3,7 +3,6 @@
 [![Flask](https://img.shields.io/badge/Flask-3.0.3-blue)](https://flask.palletsprojects.com/)
 [![Python](https://img.shields.io/badge/Python-3.12-green)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Deployed on Render](https://img.shields.io/badge/Deployed-Render-4A154B?logo=render)](https://render.com)
 
 Sebuah **URL Shortener** modern dengan fitur **QR Code Generator** otomatis, dibangun menggunakan **Flask**, **SQLite**, dan **qrcode**.  
 Setiap URL pendek yang dibuat akan otomatis menghasilkan **QR Code** yang bisa di-scan langsung dari halaman hasil.
