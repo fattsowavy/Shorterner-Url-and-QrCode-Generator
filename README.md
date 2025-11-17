@@ -11,7 +11,7 @@ Setiap URL pendek yang dibuat akan otomatis menghasilkan **QR Code** yang bisa d
 
 | Fitur | Deskripsi |
 |------|----------|
-| **Short URL Unik** | Kode pendek 6 karakter acak (unik, aman, anti-tabrakan) |
+| **Short URL Unik** | Kode pendek 6 karakter acak |
 | **QR Code Otomatis** | QR Code langsung muncul dalam format Base64 (tanpa file eksternal) |
 | **Redireksi Cepat** | `@/kodependek` → langsung ke URL asli |
 | **SQLite Database** | Penyimpanan ringan & persistent |
@@ -25,7 +25,6 @@ Setiap URL pendek yang dibuat akan otomatis menghasilkan **QR Code** yang bisa d
 - **Database**: SQLite (`shortener.db`)
 - **QR Code**: `qrcode` + `Pillow`
 - **Server**: Gunicorn
-- **Deploy**: [Render.com](https://render.com) (Free tier)
 
 
 ## Struktur Proyek
