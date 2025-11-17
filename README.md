@@ -15,7 +15,6 @@ Setiap URL pendek yang dibuat akan otomatis menghasilkan **QR Code** yang bisa d
 | **QR Code Otomatis** | QR Code langsung muncul dalam format Base64 (tanpa file eksternal) |
 | **Redireksi Cepat** | `@/kodependek` → langsung ke URL asli |
 | **SQLite Database** | Penyimpanan ringan & persistent |
-| **Production-Ready** | Deploy otomatis via Render + Gunicorn |
 | **HTTPS & Mobile-Friendly** | Siap digunakan di HP/PC |
 
 
