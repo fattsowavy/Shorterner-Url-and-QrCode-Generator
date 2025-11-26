@@ -1,0 +1,29 @@
+# URL Shortener + QR Code Generator
+
+[![Flask](https://img.shields.io/badge/Flask-3.0.3-blue)](https://flask.palletsprojects.com/)
+[![Python](https://img.shields.io/badge/Python-3.12-green)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Sebuah **URL Shortener** modern dengan fitur **QR Code Generator** otomatis, dibangun menggunakan **Flask**, **SQLite**, dan **qrcode**.  
+Setiap URL pendek yang dibuat akan otomatis menghasilkan **QR Code** yang bisa di-scan langsung dari halaman hasil.
+
+## Fitur Utama
+
+| Fitur | Deskripsi |
+|------|----------|
+| **Short URL Unik** | Kode pendek 6 karakter acak |
+| **QR Code Otomatis** | QR Code langsung muncul dalam format Base64 (tanpa file eksternal) |
+| **Redireksi Cepat** | `@/kodependek` → langsung ke URL asli |
+| **SQLite Database** | Penyimpanan ringan & persistent |
+| **HTTPS & Mobile-Friendly** | Siap digunakan di HP/PC |
+
+
+## Tech Stack
+
+- **Backend**: Flask (Python)
+- **Database**: SQLite (`shortener.db`)
+- **QR Code**: `qrcode` + `Pillow`
+- **Server**: Gunicorn
+
+
+## Struktur Proyek
