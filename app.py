@@ -13,6 +13,8 @@ app = Flask(__name__)
 DB_NAME = "shortener.db"
 BASE_URL = "http://127.0.0.1:5000"  
 
+BASE_URL = os.environ.get('BASE_URL', 'http://127.0.0.1:5000')
+
 def init_db():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
@@ -103,4 +105,5 @@ def not_found(e):
 
 if __name__ == "__main__":
     init_db()
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
